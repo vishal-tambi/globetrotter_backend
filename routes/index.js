@@ -5,7 +5,7 @@ const gameController = require('../controllers/gameController');
 const authController = require('../controllers/authController');
 const { authenticate, authenticateAdmin, authRateLimiter } = require('../middlewares/auth');
 
-// Public routes
+// Public Routes
 router.get('/destinations/random', destinationController.getRandomDestination);
 
 // Game routes
